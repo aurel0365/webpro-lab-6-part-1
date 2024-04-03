@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <style>
+html{
+    color: white;
+}
+
+header{
+    color: black;
+    background-color: rgb(236, 219, 140);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 75px;
+}
+nav {
+    color: black;
+    float: left;
+    background-color: rgb(228, 149, 141);
+    width: 15%;
+    height: 390px;
+    text-align: center;
+    margin-right: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    font-size: 50px;
+}
+
+.figcap{
+    color: black;
+    float: left;
+    width: 15%;
+    height: 390px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.divflex {
+    color: black;
+    justify-content: space-between;
+    height: 125px;
+    background-color: rgb(114, 208, 224);
+    display: flex;
+    margin : 0.5% auto;
+    gap: 10px;
+    font-size: 20px;
+}
+#article1{
+    color: black;
+    background-color: rgb(114, 208, 224);
+    width: 100%;
+    height: 52px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 5px;
+}
+footer{
+    color: black;
+    background-color: rgb(253, 181, 133);
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    clear: both;
+    margin-bottom: 20px;
+    font-size: 75px;
+}
+#footer1{
+    color: black;
+    background-color: rgb(202, 175, 140);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    clear: both;
+    font-size: 20px;
+
+}
+.header1{
+    color: black;
+    background-color: rgb(188, 199, 174);
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 4px;
+}
+
+.divflex > section {
+    flex: 1;
+    flex-grow: 1; 
+}
+
+figure {
+    background-color: rgb(141, 200, 105);
+    padding: 1%;
+    margin: 5px;
+ 
+    
+
+}
+
+figcaption{
+    width: 50px;
+    height:30px;
+}
+</style>
+</head>
+<body>
+    <header>Header</header>
+    <nav>Nav</nav>
+    
+    <section style="gap: 20px;">
+    <section class = "divflex">
+        <figure>
+            <figcaption>Figure</figcaption>
+            <br><br>
+            <figcap style="background-color: grey;">Figcaption</figcap>
+        </figure>
+        
+        <section>
+            <section class = "header1">Header</section>
+            <article id = "article1">Article</article>
+            <footer id = "footer1">Footer</footer>
+        </section>
+    </section>
+
+    <section class = "divflex">
+        <figure>
+            <figcaption>Figure</figcaption>
+            <br><br>    
+            <figcap style="background-color: grey;">Figcaption</figcap>
+        </figure>
+        <section>
+            <section class = "header1">Header</section>
+            <article id = "article1">Article</article>
+            <footer id = "footer1">Footer</footer>
+        </section>
+    </section>
+
+    <section class = "divflex">
+        <figure>
+            <figcaption>Figure</figcaption>
+            <br><br> 
+            <figcap style="background-color: grey;"> Figcaption</figcap></figure>
+        <section>
+            <section class = "header1">Header</section>
+            <article id = "article1">Article</article>
+            <footer id = "footer1">Footer</footer>
+        </section>
+
+    </section>
+    </section>
+    <footer>Footer</footer>
+</body>
+</html>
